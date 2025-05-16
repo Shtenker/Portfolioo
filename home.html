@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O</title>
+    <title>Nils Wahlberg</title>
     <link rel="stylesheet" href="style.css"> 
     <style>
         #myImage {
@@ -15,6 +15,7 @@
 
 </head>
 
+<body>
 <nav>
     <ul>
         <li><a href="home.html" class="home">Home</a></li>
@@ -22,27 +23,28 @@
         <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
         <li><a href="contact.html" class="contact">Contact</a></li>
     </ul>
-</nav> 
+</nav>
 
-
-<body>
 
    
    
     <p class="myName">Nils Wahlberg</p>
     <p class="highlighted-text">Mitt Portfolio</p>
 
-    <button onclick="toggleImage()">Click to Toggle Image</button>
-
- 
-    <img id="myImage" src="JAGGG.png" alt="A cool image">
 
    
-    <script>
-        function toggleImage() {
-            var img = document.getElementById("myImage");
-            img.style.display = img.style.display === "none" ? "block" : "none";
-        }
-    </script>
+    <button class="toggleButton" onclick="toggleImage()">Me</button>
+
+<br><br>
+
+<img id="myImage" src="./JAGGG.png" alt="Image not found." style="display: none;" onerror="this.style.display='none'; alert('Image not found. Please check the file path or name.');" />
+
+<script>
+  function toggleImage() {
+    const img = document.getElementById("myImage");
+    img.style.display = img.style.display === "none" ? "block" : "none";
+  }
+</script>
 </body>
 </html>
+

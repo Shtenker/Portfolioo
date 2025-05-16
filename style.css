@@ -152,3 +152,94 @@ a:hover {
     text-decoration: underline;   /* Adds underline when hovered */
 }
 
+.aboutMeHead {
+    background-color: rgba(74, 11, 61, 0.576); /* Your text's background */
+    color: white;                                /* Text color */
+    padding: 30px;                               /* Padding around the text */
+    font-size: 60px;                             /* Font size */
+    text-align: center;                          /* Center the text itself */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     /* Font family */
+    font-weight: bold;
+    border-radius: 45px;
+    position: absolute;                        /* Ensure text positioning isn't disturbed */
+    z-index: 1;                                  /* Make sure text appears on top */
+    top: -50px; 
+    left: 510px;
+    border: 5px solid white;                 
+}
+
+.portfolioHead {
+    background-color: rgba(74, 11, 61, 0.576); /* Your text's background */
+    color: white;                                /* Text color */
+    padding: 30px;                               /* Padding around the text */
+    font-size: 60px;                             /* Font size */
+    text-align: center;                          /* Center the text itself */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     /* Font family */
+    font-weight: bold;
+    border-radius: 45px;
+    position: absolute;                        /* Ensure text positioning isn't disturbed */
+    z-index: 1;                                  /* Make sure text appears on top */
+    top: -50px; 
+    left: 520px;
+    border: 5px solid white;                 
+}
+
+.contactHead {
+    background-color: rgba(74, 11, 61, 0.576); /* Your text's background */
+    color: white;                                /* Text color */
+    padding: 30px;                               /* Padding around the text */
+    font-size: 60px;                             /* Font size */
+    text-align: center;                          /* Center the text itself */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     /* Font family */
+    font-weight: bold;
+    border-radius: 45px;
+    position: absolute;                        /* Ensure text positioning isn't disturbed */
+    z-index: 1;                                  /* Make sure text appears on top */
+    top: -50px; 
+    left: 528;
+    border: 5px solid white;                 
+}
+
+.textBlock {
+    background-color: rgba(74, 11, 61, 0.576); /* Background color */
+    padding: 30px;                             /* Optional: spacing inside */
+    border-radius: 45px;                       /* Rounded corners */
+    border: 5px solid white;                   /* Border */
+    position: absolute;                        /* Positioning */
+    color: white;  
+    font-size: 16px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    z-index: 1;
+    top: 160px;
+    left: 292px;                               /* Add 'px' unit */
+    width: 700px;                              /* Add desired width */
+    height: 270px;                             /* Add desired height */
+}
+
+.toggleButton {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(74, 11, 61, 0.576);
+    border-radius: 45px;
+    padding: 30px 40px; /* Adjust padding if needed */
+    font-weight: bold;
+    border: 5px solid white;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 100px;
+  }
+  
+  .toggleButton:hover {
+    background-color: rgb(82, 9, 66);
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  
+

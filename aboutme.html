@@ -1,11 +1,51 @@
 <nav>
-    <ul>
-      <li><a href="home.html">Home</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <ul>
+      <li><a href="home.html" class="home">Home</a></li>
+      <li><a href="aboutme.html" class="about">About Me</a></li>
+      <li><a href="portfolio.html" class="portfolio">Portfolio</a></li>
+      <li><a href="contact.html" class="contact">Contact</a></li>
+  </ul>
+</nav> 
 
-  <body>
-    <p>Jag gillar träning, spel och att vara ute i naturen.</p>
-  </body>
+
+<div class="textBlock">
+    <p>Jag heter Nils, är 20 år gammal och gillar träning, programmering, spel och att vara ute i naturen.</p> 
+  </div> 
+  
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        #myImage {
+            display: none;
+            width: 300px; 
+            height: auto;
+        }
+        </style>  
+      
+      <p class="aboutMeHead">About Me</p>
+
+
+      <button class="toggleButton" onclick="toggleImage()">Picture of nature</button>
+
+      <br><br>
+      
+      <img id="myImage" src="./natur.png" alt="Image not found" style="display: none;" />
+      
+      <script>
+        function toggleImage() {
+          const img = document.getElementById("myImage");
+          img.style.display = img.style.display === "none" ? "block" : "none";
+        }
+      </script>
+      </body>
+      </html>
+      
+  
+
+ 
